@@ -6,7 +6,8 @@ ict_club_members = [
     "Enzo Ruiz",
     "Logan Anaque",
     "Doctor Doom",
-    "John Hizon"
+    "John Hizon",
+    "Khabib Nurmagomedov"
 ]
 
 # Combines the first and last name inputted and checks if they are in the ICT club members list
@@ -19,8 +20,8 @@ def check_club_member(e):
 
 # Different messages shown to the user depending on whether they are a member or not
     messages = [
-        "Sorry " + club_member_name + ", you are not a part of the ICT Club.",
-        "Congratulations " + club_member_name + "! You are now a part of the ICT club."
+        "Sorry " + club_member_name + ", your name is not on the list.",
+        "Congratulations " + club_member_name + "! You are now part of the ICT club."
     ]
 
 # Displays the Candidate Verification System
