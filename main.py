@@ -1,5 +1,6 @@
 # Candidate Verification System
 from pyscript import document, display
+
 # Uses a list to group ICT club members
 ict_club_members = [
     "Joshua Ortiz",
